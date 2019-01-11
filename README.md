@@ -47,6 +47,11 @@ ALLOWED_HOSTS = ['*']
 PORTは`docker-compose.yml`で設定してあるもの（今回は8000）でアクセス
 `http://192.168.33.15:8000`
 
+### コンテナ停止
+`docker stop {CONTAINER_ID | CONTAINER_NAME}`
+
+### コンテナ起動
+`docker start {CONTAINER_ID | CONTAINER_NAME}`
 
 ### 参照サイト
 https://hodalog.com/run-django-app-using-docker-compose/
