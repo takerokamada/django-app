@@ -2,6 +2,7 @@
 勉強用
 
 ## 手順
+`docker-compse.yml`が置かれているディレクトリで下記を実行
 `docker-compose up -d`
 
 `docker container ls`
